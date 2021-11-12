@@ -10,7 +10,7 @@ Start with CAD Class V2X Simulation:
 3.	Open a terminal inside the docker container: `docker-compose exec cad-v2x-lab bash`
     - Test the environment is working on docker terminal run `sumo-gui` to test sumo is working.
     - Open [http://localhost:8080/vnc_auto.html](http://localhost:8080/vnc_auto.html) to access GUIs that are running within the docker container.
-    - Test OMNeT++ is working on docker terminal run omnetpp to run OMNeT++, check that OMNeT++ gui appears in the browser.
+    - Test OMNeT++ is working on docker terminal run `omnetpp` to run OMNeT++, check that OMNeT++ gui appears in the browser.
 
 
 
