@@ -1,0 +1,26 @@
+// This file is part of an OMNeT++ simulation example for Connected and Autonomous Vehicles class (Winter semester 2021-2022)
+
+//Network Description File (NED), define components and to assemble them into larger units like networks. 
+
+
+// Declares Car as a simple module type. 
+simple Car
+{
+    //Simple module has an input gate named in, and an output gate named out.
+    gates:
+        input in;
+        output out;
+}
+
+// Two instances (car1 and car2) of Ex1 connected both ways.
+// Car1 and car2 will pass messages to one another.
+network Ex1 // declares Ex1 as a network
+{
+    submodules:
+        car1: Car;
+        car2: Car;
+    connections:
+        // There will be a 100ms propagation delay (time taken to reach its destination) both ways.
+        car1.out --> {  delay = 100ms; } --> car2.in;
+        car1.in <-- {  delay = 100ms; } <-- car2.out;
+}

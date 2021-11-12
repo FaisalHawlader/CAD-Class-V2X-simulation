@@ -1,0 +1,6 @@
+07:45:05 **** Build of configuration release for project Ex02 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+
+07:45:06 Build Finished. 0 errors, 0 warnings. (took 219ms)
+

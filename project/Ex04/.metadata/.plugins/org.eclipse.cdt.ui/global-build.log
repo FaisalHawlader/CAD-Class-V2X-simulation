@@ -1,0 +1,580 @@
+09:33:53 **** Build of configuration gcc-debug for project veins ****
+make MODE=debug -k -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+veins/base/connectionManager/BaseConnectionManager.cc
+veins/base/connectionManager/ChannelAccess.cc
+veins/base/connectionManager/ConnectionManager.cc
+veins/base/connectionManager/NicEntryDebug.cc
+veins/base/connectionManager/NicEntryDirect.cc
+veins/base/modules/BaseApplLayer.cc
+veins/base/modules/BaseBattery.cc
+veins/base/modules/BaseLayer.cc
+veins/base/modules/BaseMobility.cc
+veins/base/modules/BaseMacLayer.cc
+veins/base/modules/BaseModule.cc
+veins/base/modules/BaseWorldUtility.cc
+veins/base/modules/BatteryAccess.cc
+veins/base/phyLayer/BaseDecider.cc
+veins/base/phyLayer/Antenna.cc
+veins/base/phyLayer/BasePhyLayer.cc
+veins/base/phyLayer/ChannelInfo.cc
+veins/base/phyLayer/Decider.cc
+veins/base/phyLayer/PhyUtils.cc
+veins/base/toolbox/Signal.cc
+veins/base/toolbox/SignalUtils.cc
+veins/base/toolbox/Spectrum.cc
+veins/base/utils/Coord.cc
+veins/base/utils/Heading.cc
+veins/base/utils/NetwToMacControlInfo.cc
+veins/base/utils/SimpleAddress.cc
+veins/base/utils/winsupport.cc
+veins/modules/analogueModel/NakagamiFading.cc
+veins/modules/analogueModel/BreakpointPathlossModel.cc
+veins/modules/analogueModel/PERModel.cc
+veins/modules/analogueModel/SimpleObstacleShadowing.cc
+veins/modules/analogueModel/SimplePathlossModel.cc
+veins/modules/analogueModel/TwoRayInterferenceModel.cc
+veins/modules/analogueModel/VehicleObstacleShadowing.cc
+veins/modules/application/ieee80211p/DemoBaseApplLayer.cc
+veins/modules/application/traci/TraCIDemo11p.cc
+veins/modules/application/traci/MyVeinsApp.cc
+veins/modules/application/traci/TraCIDemoRSU11p.cc
+veins/modules/mac/ieee80211p/Mac1609_4.cc
+veins/modules/mobility/LinearMobility.cc
+veins/modules/mobility/traci/TraCIBuffer.cc
+veins/modules/mobility/traci/TraCIColor.cc
+veins/modules/mobility/traci/TraCICommandInterface.cc
+veins/modules/mobility/traci/TraCIConnection.cc
+veins/modules/mobility/traci/TraCICoordinateTransformation.cc
+veins/modules/mobility/traci/TraCILauncher.cc
+veins/modules/mobility/traci/TraCIMobility.cc
+veins/modules/mobility/traci/TraCIRegionOfInterest.cc
+veins/modules/mobility/traci/TraCIScenarioManager.cc
+veins/modules/mobility/traci/TraCIScenarioManagerForker.cc
+veins/modules/mobility/traci/TraCIScenarioManagerLaunchd.cc
+veins/modules/mobility/traci/TraCIScreenRecorder.cc
+veins/modules/mobility/traci/TraCIVehicleInserter.cc
+veins/modules/obstacle/MobileHostObstacle.cc
+veins/modules/obstacle/Obstacle.cc
+veins/modules/obstacle/ObstacleControl.cc
+veins/modules/obstacle/VehicleObstacleControl.cc
+veins/modules/phy/Decider80211p.cc
+veins/modules/phy/NistErrorRate.cc
+veins/modules/mobility/traci/TraCIConnection.cc:123:20: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+    if (*socketPtr < 0) throw cRuntimeError("Could not create socket to connect to TraCI server");
+        ~~~~~~~~~~ ^ ~
+1 warning generated.
+veins/modules/phy/SampledAntenna1D.cc
+veins/modules/utility/BBoxLookup.cc
+veins/modules/phy/PhyLayer80211p.cc
+veins/modules/utility/HasLogProxy.cc
+veins/modules/utility/TimerManager.cc
+veins/modules/mobility/traci/TraCIScenarioManagerForker.cc:130:14: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+    if (sock < 0) {
+        ~~~~ ^ ~
+veins/modules/world/annotations/AnnotationDummy.cc
+veins/modules/world/annotations/AnnotationManager.cc
+veins/modules/world/traci/trafficLight/TraCITrafficLightInterface.cc
+1 warning generated.
+veins/modules/world/traci/trafficLight/TraCITrafficLightProgram.cc
+veins/modules/world/traci/trafficLight/logics/TraCITrafficLightAbstractLogic.cc
+veins/modules/world/traci/trafficLight/logics/TraCITrafficLightSimpleLogic.cc
+veins/visualizer/roads/RoadsCanvasVisualizer.cc
+veins/visualizer/roads/RoadsOsgVisualizer.cc
+veins/base/messages/BorderMsg_m.cc
+veins/base/messages/AirFrame_m.cc
+veins/base/messages/MacPkt_m.cc
+veins/modules/application/traci/TraCIDemo11pMessage_m.cc
+veins/modules/messages/AckTimeOutMessage_m.cc
+veins/modules/messages/AirFrame11p_m.cc
+veins/modules/messages/BaseFrame1609_4_m.cc
+veins/modules/messages/DemoSafetyMessage_m.cc
+veins/modules/messages/DemoServiceAdvertisement_m.cc
+veins/modules/messages/Mac80211Ack_m.cc
+veins/modules/messages/Mac80211Pkt_m.cc
+veins/modules/messages/PhyControlMessage_m.cc
+veins/modules/messages/TraCITrafficLightMessage_m.cc
+In file included from veins/visualizer/roads/RoadsOsgVisualizer.cc:30:
+In file included from .\veins/visualizer/roads/RoadsOsgVisualizer.h:29:
+In file included from .\veins/veins.h:34:
+In file included from C:/Users/faisa/Downloads/omnetpp-5.6.2-src-windows/omnetpp-5.6.2/include\omnetpp.h:134:
+In file included from C:/Users/faisa/Downloads/omnetpp-5.6.2-src-windows/omnetpp-5.6.2/include/omnetpp/platdep/timeutil.h:41:
+C:\Users\faisa\Downloads\omnetpp-5.6.2-src-windows\omnetpp-5.6.2\tools\win64\mingw64\x86_64-w64-mingw32\include\winsock2.h:15:2: warning: Please include winsock2.h before windows.h [-W#warnings]
+#warning Please include winsock2.h before windows.h
+ ^
+1 warning generated.
+Creating shared library: ../out/clang-debug/src/libveins_dbg.dll
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+09:34:45 **** Incremental Build of configuration gcc-release for project veins ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+09:36:21 **** Incremental Build of configuration gcc-release for project veins ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+09:37:09 **** Incremental Build of configuration gcc-release for project veins ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+10:30:19 **** Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:00:08 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:01:56 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:03:03 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:03:36 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:04:31 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:05:06 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:05:37 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:06:15 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:06:46 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:07:13 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:07:40 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:45:09 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:46:20 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:52:30 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:53:52 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:56:42 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:59:07 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:00:38 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:03:09 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:05:22 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:06:19 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:07:10 **** Incremental Build of configuration gcc-release for project veins ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+12:07:11 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:07:24 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:09:59 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:13:17 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:20:16 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:21:57 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:25:43 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:27:02 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:28:03 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:31:07 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:42:39 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:43:57 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:44:38 **** Incremental Build of configuration gcc-release for project veins ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+12:45:10 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:46:42 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:49:43 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:50:25 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:59:58 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+13:08:21 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+13:09:37 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+13:11:26 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+13:12:38 **** Incremental Build of configuration gcc-release for project veins ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+13:12:39 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+13:12:42 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+13:13:19 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+11:12:31 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+12:34:02 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+15:47:08 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+15:50:05 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+15:52:42 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+15:53:27 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+15:55:51 **** Incremental Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+10:08:13 **** Build of configuration debug for project HelloWorld ****
+make MODE=debug all 
+hello.cc
+Creating executable: out/clang-debug//HelloWorld_dbg.exe
+10:08:16 **** Build of configuration debug for project MultipleNodes ****
+make MODE=debug all 
+test04.cc
+Creating executable: out/clang-debug//MultipleNodes_dbg.exe
+10:08:18 **** Build of configuration gcc-release for project veins ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Pictures/omnet/veins/src'
+10:08:19 **** Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+10:10:14 **** Build of configuration gcc-release for project Ex4 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+11:13:59 **** Build of configuration release for project Ex1 ****
+make MODE=release all 
+Creating executable: out/clang-release//Ex1.exe
+11:31:02 **** Build of configuration release for project Ex2 ****
+make MODE=release all 
+Creating executable: out/clang-release//Ex2.exe
+11:44:17 **** Incremental Build of configuration gcc-release for project Ex4 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+07:40:37 **** Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+07:58:17 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+08:04:43 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+08:05:35 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+08:10:39 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+08:20:31 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+08:21:14 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+08:22:00 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+09:00:40 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+09:02:25 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+09:04:11 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+09:04:59 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+09:06:41 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+09:07:59 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+09:09:40 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+09:10:37 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+09:11:01 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+09:12:51 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+09:22:34 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+09:29:13 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+10:12:30 **** Incremental Build of configuration gcc-release for project veins_carla ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins_carla/src'
+15:11:21 **** Build of configuration release for project Ex1 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+15:12:18 **** Incremental Build of configuration release for project Ex1 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+15:12:38 **** Incremental Build of configuration release for project Ex1 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+15:13:27 **** Build of configuration gcc-release for project Ex4 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+15:45:12 **** Incremental Build of configuration gcc-release for project Ex4 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+15:45:58 **** Incremental Build of configuration gcc-release for project Ex4 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+15:51:53 **** Incremental Build of configuration gcc-release for project Ex4 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+09:41:34 **** Incremental Build of configuration gcc-release for project Ex4 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+09:44:02 **** Incremental Build of configuration gcc-release for project Ex4 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+15:50:13 **** Incremental Build of configuration gcc-release for project Ex4 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/Ex4/src'

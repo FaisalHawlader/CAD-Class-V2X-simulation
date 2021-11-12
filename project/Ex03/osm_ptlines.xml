@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 11/08/21 15:43:53 by Eclipse SUMO netconvert Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Users\faisa\Downloads\sumo-1.8.0\data\typemap\osmNetconvert.typ.xml,C:\Users\faisa\Downloads\sumo-1.8.0\data\typemap\osmNetconvertUrbanDe.typ.xml,C:\Users\faisa\Downloads\sumo-1.8.0\data\typemap\osmNetconvertPedestrians.typ.xml,C:\Users\faisa\Downloads\sumo-1.8.0\data\typemap\osmNetconvertBicycle.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+        <railway.topology.repair.stop-turn value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="12456248" name="RGTR 308: Bettembourg =&gt; Esch/Lycées (cs)" line="308" type="bus" vClass="bus" completeness="0.05">
+        <route edges="381988749#0 381988749#1 24667797 382224391 384688158 25210189#0 25210189#2 25210189#4 25210189#5 25210189#6 25210189#7 25210189#8 25210189#10 152100999 594713490 443202032 377213301#0 377213301#1 377213301#2 393878675 388280785 28242822#0 28242822#1 28242822#2 -364154088#2 -364154088#1 -364154088#0 188215406 423133512 149642749 393878671#0 393878671#1 467392235#1 425555627#0 425555627#1 69353459#0 69353439#1 69353439#2 69353439#6 69353439#7 663774150#0 663774150#1 663774150#2 338332423#0 360827911#1 360827911#2 360827911#3 408845038"/>
+        <busStop id="8528041099" name="Esch, Lycée Guillaume Kroll"/>
+        <busStop id="8528041097" name="Esch, Lycée Guillaume Kroll"/>
+    </ptLine>
+    <ptLine id="12457599" name="RGTR 204: Differdange =&gt; LTC" line="204" type="bus" vClass="bus" completeness="0.03">
+        <route edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 388040068 594713490 9232836#0"/>
+        <busStop id="8528731985" name="Belvaux, Roudewee"/>
+    </ptLine>
+    <ptLine id="12460451" name="RGTR 204: Differdange =&gt; Merl" line="204" type="bus" vClass="bus" completeness="0.03">
+        <route edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 388040068 594713490 9232836#0"/>
+        <busStop id="8528731985" name="Belvaux, Roudewee"/>
+    </ptLine>
+    <ptLine id="12460461" name="RGTR 204: Merl =&gt; Differdange" line="204" type="bus" vClass="bus" completeness="0.16">
+        <route edges="69353466 154986375 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393878673#0 393878673#1 440710544 84526771#0 84526771#1 96202364#0 96202364#1 -223581247#5 -223581247#4 -223581247#3 -223581247#2 -223581247#0"/>
+        <busStop id="8528731981" name="Esch, Raemerich"/>
+        <busStop id="1115018437" name="Esch, Raemerich"/>
+        <busStop id="-8528731983" name="Belvaux, Brill"/>
+        <busStop id="-1115018375" name="Belvaux, Brill"/>
+        <busStop id="-8528731986" name="Belvaux, Roudewee"/>
+    </ptLine>
+    <ptLine id="12460462" name="RGTR 204: Differdange =&gt; Geesseknäppchen" line="204" type="bus" vClass="bus" completeness="0.03">
+        <route edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 388040068 594713490 9232836#0"/>
+        <busStop id="8528731985" name="Belvaux, Roudewee"/>
+    </ptLine>
+    <ptLine id="1387204" name="TICE-01: Esch =&gt; Lamadelaine" line="1" type="bus" vClass="bus" completeness="0.08">
+        <route edges="393878678 96202384#0 96202384#1 388006867#1 388006867#3 388211543 73204671#0 73204671#1 393248455 385079851 388040068 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393878673#0 393878673#1 440710544 84526771#0 84526771#1 96202364#0 96202364#1 -223581247#5 -223581247#4 -223581247#3 -223581247#2 -223581247#0"/>
+        <busStop id="4464473490" name="Esch, Tramschapp"/>
+        <busStop id="1115018437" name="Esch, Raemerich"/>
+        <busStop id="-1115018375" name="Belvaux, Brill"/>
+    </ptLine>
+    <ptLine id="1388000" name="TICE-02: Esch =&gt; Differdange" line="2" type="bus" vClass="bus" completeness="0.13">
+        <route edges="-150258989#9 -150258989#8 -150258989#6 -150258989#5 -150258989#4 -150258989#3 -150258989#2 -150258989#0 96202384#0 96202384#1 388006867#1 388006867#3 388211543 73204671#0 73204671#1 393248455 385079851 388040068 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393878673#0 393878673#1 440710544 84526771#0 84526771#1 96202364#0 96202364#1 -223581247#5 -223581247#4 -223581247#3 -223581247#2 -223581247#0"/>
+        <busStop id="-1631828670" name="Esch, Rue des Tramways"/>
+        <busStop id="4464473490" name="Esch, Tramschapp"/>
+        <busStop id="1115018437" name="Esch, Raemerich"/>
+        <busStop id="-1115018375" name="Belvaux, Brill"/>
+    </ptLine>
+    <ptLine id="1391506" name="TICE-04: Esch =&gt; Dudelange" line="4" type="bus" vClass="bus" completeness="0.17">
+        <route edges="69353461#0 393764297#1 393764297#2 393764297#3 393596509 393596508#0 393596508#1 393596508#2 425555630#2 227337561 426538581#0 426538581#1 426538581#2 423133516 423133512 28246185 194714719 440710412#0 440710412#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 23019727#0 23019727#1 23019727#2 -388211543 -388006867#3 -388006867#1 -388006867#0 -96202384#0 150258989#0 150258989#2 150258989#3 150258989#4 150258989#5 150258989#6 150258989#8 150258989#9"/>
+        <busStop id="4408239878" name="Esch/Alzette, Porte de France"/>
+        <busStop id="1625279566" name="Esch/Alzette, Porte de France"/>
+        <busStop id="6212933652" name="Esch/Alzette, Porte des Sciences"/>
+        <busStop id="6212933653" name="Esch/Alzette, Porte des Sciences"/>
+        <busStop id="1115018384" name="Esch, Raemerich"/>
+        <busStop id="5146079337" name="Esch, Tramschapp"/>
+        <busStop id="1631828668" name="Esch, Rue des Tramways"/>
+    </ptLine>
+    <ptLine id="6112896" name="RGTR 306: Esch/Belval =&gt; Trier" line="306" type="bus" vClass="bus" completeness="0.25">
+        <route edges="-408845038 -360827911#3 -360827911#2 -360827911#1 393764297#1 393764297#2 393764297#3 393596509 393596508#0 393596508#1 393596508#2 425555630#2 227337561 426538581#0 426538581#1 426538581#2 366838967 364154088#0 364154088#1 364154088#2 188215405 385080086#0 385080086#1 377213300 23888931 388280781 385079851 388040068 594713490 9232836#0"/>
+        <busStop id="-4408239875" name="Belvaux, Um Bedding"/>
+        <busStop id="-2360364949" name="Belvaux, Um Bedding"/>
+        <busStop id="4408239878" name="Esch/Alzette, Porte de France"/>
+        <busStop id="1625279566" name="Esch/Alzette, Porte de France"/>
+        <busStop id="6212933652" name="Esch/Alzette, Porte des Sciences"/>
+        <busStop id="6212933653" name="Esch/Alzette, Porte des Sciences"/>
+    </ptLine>
+    <ptLine id="7487928" name="RGTR 306: Trier =&gt; Esch/Belval" line="306" type="bus" vClass="bus" completeness="0.25">
+        <route edges="69353466 154986375 377213301#0 377213301#1 377213301#2 393878675 388280785 28242822#0 28242822#1 28242822#2 -364154088#2 -364154088#1 -364154088#0 188215406 423133512 149642749 393878671#0 393878671#1 467392235#1 425555627#0 425555627#1 69353459#0 -227338318#2 -227338318#1 -227338318#0 393835185 663774150#0 663774150#1 663774150#2 338332423#0 360827911#1 360827911#2 360827911#3 408845038"/>
+        <busStop id="-6212933651" name="Esch/Alzette, Porte des Sciences"/>
+        <busStop id="-6212933654" name="Esch/Alzette, Porte des Sciences"/>
+        <busStop id="4408239877" name="Esch/Alzette, Porte de France"/>
+        <busStop id="4107535818" name="Esch/Alzette, Porte de France"/>
+        <busStop id="-4408239875" name="Belvaux, Um Bedding"/>
+        <busStop id="4107543803" name="Belvaux, Um Bedding"/>
+    </ptLine>
+    <ptLine id="7537778" name="RGTR 202: Niederkorn =&gt; Limpertsberg" line="202" type="bus" vClass="bus" completeness="0.04">
+        <route edges="-387830973#1 -387830973#0 84526820#0 84526820#1 476707103#0 476707103#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 388040068 594713490 9232836#0"/>
+        <busStop id="3914930752" name="Esch, Raemerich"/>
+        <busStop id="1115018384" name="Esch, Raemerich"/>
+    </ptLine>
+    <ptLine id="7537779" name="RGTR 202: Limpertsberg =&gt; Niederkorn" line="202" type="bus" vClass="bus" completeness="0.04">
+        <route edges="69353466 154986375 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393878673#0 393878673#1 440710544 84526823#0 84526823#1 84526823#2 387830973#0 387830973#1"/>
+        <busStop id="8528731981" name="Esch, Raemerich"/>
+        <busStop id="1115018437" name="Esch, Raemerich"/>
+    </ptLine>
+    <ptLine id="7537807" name="RGTR 203: Obercorn =&gt; Limpertsberg" line="203" type="bus" vClass="bus" completeness="0.02">
+        <route edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 152101003 -25210189#10 -25210189#8 -25210189#7 -25210189#6 -25210189#5 -25210189#4 -25210189#2 -25210189#0 382420753 24667797"/>
+        <busStop id="8528731985" name="Belvaux, Roudewee"/>
+    </ptLine>
+    <ptLine id="7537808" name="RGTR 203: Limpertsberg =&gt; Obercorn" line="203" type="bus" vClass="bus" completeness="0.02">
+        <route edges="382224391 384688158 25210189#0 25210189#2 25210189#4 25210189#5 25210189#6 25210189#7 25210189#8 25210189#10 152100999 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393878673#0 393878673#1 440710544 84526771#0 84526771#1 96202364#0 96202364#1 -223581247#5 -223581247#4 -223581247#3 -223581247#2 -223581247#0"/>
+        <busStop id="9107699358" name="Esch, Cité Verte"/>
+    </ptLine>
+    <ptLine id="7617227" name="RGTR 321: Villerupt (F) =&gt; Luxembourg" line="321" type="bus" vClass="bus" completeness="0.05">
+        <route edges="393878678 96202384#0 96202384#1 388006867#1 388006867#3 388211543 73204671#0 73204671#1 393248455 385079851 388040068 594713490 9232836#0"/>
+        <busStop id="4464473490" name="Esch, Tramschapp"/>
+    </ptLine>
+    <ptLine id="7617228" name="RGTR 321: Luxembourg =&gt; Villerupt (F)" line="321" type="bus" vClass="bus" completeness="0.05">
+        <route edges="69353466 154986375 377213301#0 377213301#1 377213301#2 393878675 388280785 377213302 23888931 23019727#0 23019727#1 23019727#2 -388211543 -388006867#3 -388006867#1 -388006867#0 -96202384#0 -393878678"/>
+        <busStop id="5146079337" name="Esch, Tramschapp"/>
+    </ptLine>
+    <ptLine id="7698755" name="RGTR 325: Hussigny (F) =&gt; Luxembourg" line="325" type="bus" vClass="bus" completeness="0.06">
+        <route edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 388040068 594713490 9232836#0"/>
+        <busStop id="1115018462" name="Belvaux, Brill"/>
+        <busStop id="1115018384" name="Esch, Raemerich"/>
+    </ptLine>
+    <ptLine id="7698756" name="RGTR 325: Luxembourg =&gt; Hussigny (F)" line="325" type="bus" vClass="bus" completeness="0.06">
+        <route edges="69353466 154986375 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393878673#0 393878673#1 440710544 84526771#0 84526771#1 96202364#0 96202364#1 -223581247#5 -223581247#4 -223581247#3 -223581247#2 -223581247#0"/>
+        <busStop id="1115018437" name="Esch, Raemerich"/>
+        <busStop id="-1115018375" name="Belvaux, Brill"/>
+    </ptLine>
+    <ptLine id="8360118" name="RGTR 332: Belval =&gt; Steinfort" line="332" type="bus" vClass="bus" completeness="0.21">
+        <route edges="-360827911#3 -360827911#2 -360827911#1 393764297#1 393764297#2 393764297#3 393764300#0 393764300#1 393764300#2 393764300#3 425555630#2 227337561 426538581#0 426538581#1 426538581#2 366838967 364154088#0 364154088#1 364154088#2 188215405 385080086#0 385080086#1 377213300 23888931 388280781 385079851 152101003 -25210189#10 -25210189#8 -25210189#7 -25210189#6 -25210189#5 -25210189#4 -25210189#2 -25210189#0 382420753 24667797 382224391 24701143"/>
+        <busStop id="-4408239875" name="Belvaux, Um Bedding"/>
+        <busStop id="-2360364949@8360118" name="Belvaux, Um Bedding"/>
+        <busStop id="4408239878" name="Esch/Alzette, Porte de France"/>
+        <busStop id="1625279566" name="Esch/Alzette, Porte de France"/>
+        <busStop id="4248491039" name="Esch/Alzette, Cité des Sciences"/>
+        <busStop id="3968040959" name="Esch/Alzette, Cité des Sciences"/>
+        <busStop id="-1649300091" name="Esch, Rue Henri Koch"/>
+    </ptLine>
+    <ptLine id="8360119" name="RGTR 332: Steinfort =&gt; Belval" line="332" type="bus" vClass="bus" completeness="0.19">
+        <route edges="-24701143 384688158 25210189#0 25210189#2 25210189#4 25210189#5 25210189#6 25210189#7 25210189#8 25210189#10 152100999 594713490 443202032 377213301#0 377213301#1 377213301#2 393878675 388280785 28242822#0 28242822#1 28242822#2 -364154088#2 -364154088#1 -364154088#0 188215406 423133512 149642749 393878671#0 393878671#1 467392235#1 425555627#0 425555627#1 69353459#0 69353439#1 69353439#2 69353439#6 69353439#7 663774150#0 663774150#1 663774150#2 338332423#0 360827911#1 360827911#2 360827911#3"/>
+        <busStop id="5670312476" name="Esch, Rue Henri Koch"/>
+        <busStop id="4248491038" name="Esch/Alzette, Cité des Sciences"/>
+        <busStop id="3968109962" name="Esch/Alzette, Cité des Sciences"/>
+        <busStop id="4408239877" name="Esch/Alzette, Porte de France"/>
+        <busStop id="4107535818" name="Esch/Alzette, Porte de France"/>
+        <busStop id="-4408239875" name="Belvaux, Um Bedding"/>
+        <busStop id="4107543803" name="Belvaux, Um Bedding"/>
+    </ptLine>
+    <ptLine id="8781224" name="TICE-07: Esch =&gt; Esch-Belval" line="7" type="bus" vClass="bus" completeness="0.18">
+        <route edges="382224391 384688158 25210189#0 25210189#2 25210189#4 25210189#5 25210189#6 25210189#7 25210189#8 25210189#10 152100999 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393248506#0 393248506#1 393248506#2 393248506#3 393248506#4 194714712 809062693 809062692 393878671#0 393878671#1 467392235#1 425555627#0 425555627#1 69353459#0 -227338318#2 -227338318#1 -227338318#0 393835185 663774150#0 663774150#1 663774150#2 338332423#0 393764293#1"/>
+        <busStop id="5670312476" name="Esch, Rue Henri Koch"/>
+        <busStop id="1115018437" name="Esch, Raemerich"/>
+        <busStop id="-6212933651" name="Esch/Alzette, Porte des Sciences"/>
+        <busStop id="-6212933654" name="Esch/Alzette, Porte des Sciences"/>
+    </ptLine>
+    <ptLine id="8781231" name="TICE-07: Esch-Belval =&gt; Esch" line="7" type="bus" vClass="bus" completeness="0.23">
+        <route edges="69353461#0 393764297#1 393764297#2 393764297#3 393596509 393596508#0 393596508#1 393596508#2 425555630#2 227337561 426538581#0 426538581#1 426538581#2 423133516 423133512 28246185 194714719 440710412#0 440710412#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 152101003 -25210189#10 -25210189#8 -25210189#7 -25210189#6 -25210189#5 -25210189#4 -25210189#2 -25210189#0 382420753 24667797"/>
+        <busStop id="4408239878" name="Esch/Alzette, Porte de France"/>
+        <busStop id="1625279566" name="Esch/Alzette, Porte de France"/>
+        <busStop id="6212933652" name="Esch/Alzette, Porte des Sciences"/>
+        <busStop id="6212933653" name="Esch/Alzette, Porte des Sciences"/>
+        <busStop id="1115018384" name="Esch, Raemerich"/>
+        <busStop id="-1649300091" name="Esch, Rue Henri Koch"/>
+    </ptLine>
+    <ptLine id="9231814" name="RGTR 309: Esch/Belval =&gt; Grevenmacher" line="309" type="bus" vClass="bus" completeness="0.21">
+        <route edges="-408845038 -360827911#3 -360827911#2 -360827911#1 393764297#1 393764297#2 393764297#3 393596509 393596508#0 393596508#1 393596508#2 425555630#2 227337561 426538581#0 426538581#1 426538581#2 366838967 364154088#0 364154088#1 364154088#2 188215405 385080086#0 385080086#1 377213300 23888931 388280781 385079851 388040068 594713490 9232836#0"/>
+        <busStop id="-4408239875" name="Belvaux, Um Bedding"/>
+        <busStop id="-2360364949" name="Belvaux, Um Bedding"/>
+        <busStop id="4408239878" name="Esch/Alzette, Porte de France"/>
+        <busStop id="1625279566" name="Esch/Alzette, Porte de France"/>
+        <busStop id="6212933652" name="Esch/Alzette, Porte des Sciences"/>
+        <busStop id="6212933653" name="Esch/Alzette, Porte des Sciences"/>
+    </ptLine>
+    <ptLine id="9243718" name="RGTR 309: Grevenmacher =&gt; Esch/Belval" line="309" type="bus" vClass="bus" completeness="0.21">
+        <route edges="69353466 154986375 377213301#0 377213301#1 377213301#2 393878675 388280785 28242822#0 28242822#1 28242822#2 -364154088#2 -364154088#1 -364154088#0 188215406 423133512 149642749 393878671#0 393878671#1 467392235#1 425555627#0 425555627#1 69353459#0 -227338318#2 -227338318#1 -227338318#0 393835185 663774150#0 663774150#1 663774150#2 338332423#0 360827911#1 360827911#2 360827911#3 408845038"/>
+        <busStop id="-6212933651" name="Esch/Alzette, Porte des Sciences"/>
+        <busStop id="-6212933654" name="Esch/Alzette, Porte des Sciences"/>
+        <busStop id="4408239877" name="Esch/Alzette, Porte de France"/>
+        <busStop id="4107535818" name="Esch/Alzette, Porte de France"/>
+        <busStop id="-4408239875" name="Belvaux, Um Bedding"/>
+        <busStop id="4107543803" name="Belvaux, Um Bedding"/>
+    </ptLine>
+    <ptLine id="9883577" name="TICE-01: Lamadelaine =&gt; Esch" line="1" type="bus" vClass="bus" completeness="0.07">
+        <route edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 23019727#0 23019727#1 23019727#2 -388211543 -388006867#3 -388006867#1 -388006867#0 -96202384#0 -393878678"/>
+        <busStop id="1115018462" name="Belvaux, Brill"/>
+        <busStop id="1115018384" name="Esch, Raemerich"/>
+        <busStop id="5146079337" name="Esch, Tramschapp"/>
+    </ptLine>
+    <ptLine id="9883659" name="TICE-02: Differdange =&gt; Esch" line="2" type="bus" vClass="bus" completeness="0.14">
+        <route edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 23019727#0 23019727#1 23019727#2 -388211543 -388006867#3 -388006867#1 -388006867#0 -96202384#0 150258989#0 150258989#2 150258989#3 150258989#4 150258989#5 150258989#6 150258989#8 150258989#9"/>
+        <busStop id="1115018462" name="Belvaux, Brill"/>
+        <busStop id="1115018384" name="Esch, Raemerich"/>
+        <busStop id="5146079337" name="Esch, Tramschapp"/>
+        <busStop id="1631828668" name="Esch, Rue des Tramways"/>
+    </ptLine>
+    <ptLine id="9889540" name="TICE-04: Dudelange =&gt; Esch" line="4" type="bus" vClass="bus" completeness="0.02">
+        <route edges="-150258989#9 -150258989#8 -150258989#6 -150258989#5 -150258989#4 -150258989#3 -150258989#2 -150258989#0 96202384#0 96202384#1 388006867#1 388006867#3 388211543 73204671#0 73204671#1 393248455 385079851 388040068 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393248506#0 393248506#1 393248506#2 393248506#3 393248506#4 194714712 809062693 809062692 393878671#0 393878671#1 467392235#1 425555627#0 425555627#1 69353459#0 -227338318#2 -227338318#1 -227338318#0 393835185 663774150#0 663774150#1 663774150#2 338332423#0 393764293#1"/>
+        <busStop id="5120476222" name="Esch, Rue Marie Muller-Tesch"/>
+    </ptLine>
+    <ptLine id="9910178" name="TICE-15: Clemency =&gt; Esch" line="15" type="bus" vClass="bus" completeness="0.04">
+        <route edges="-408845038 -360827911#3 -360827911#2 -360827911#1 393764293#1 69353444 293867127 713057044 393596508#0 393596508#1 393596508#2 425555630#2 227337561 426538581#0 426538581#1 426538581#2 423133516 423133512 28246185 194714719 440710412#0 440710412#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 23019727#0 23019727#1 23019727#2 -388211543 -388006867#3 -388006867#1 -388006867#0 -96202384#0 -393878678"/>
+        <busStop id="-4408239875" name="Belvaux, Um Bedding"/>
+        <busStop id="-2360364949" name="Belvaux, Um Bedding"/>
+    </ptLine>
+    <ptLine id="9910179" name="TICE-15: Esch =&gt; Clemency" line="15" type="bus" vClass="bus" completeness="0.07">
+        <route edges="393878678 96202384#0 96202384#1 388006867#1 388006867#3 388211543 73204671#0 73204671#1 393248455 385079851 388040068 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393248506#0 393248506#1 393248506#2 393248506#3 393248506#4 194714712 809062693 809062692 393878671#0 393878671#1 467392235#1 425555627#0 425555627#1 69353459#0 -227338318#2 -227338318#1 -227338318#0 713057043 363316832 482442759#0 482442759#1 482442759#2 482442759#3 482442759#4 42299166#0 42299163#0 42299163#1 69353461#0 360827911#1 360827911#2 360827911#3 408845038"/>
+        <busStop id="4464473490" name="Esch, Tramschapp"/>
+        <busStop id="1115018437" name="Esch, Raemerich"/>
+        <busStop id="-6212933651" name="Esch/Alzette, Porte des Sciences"/>
+        <busStop id="-6212933654" name="Esch/Alzette, Porte des Sciences"/>
+    </ptLine>
+</ptLines>

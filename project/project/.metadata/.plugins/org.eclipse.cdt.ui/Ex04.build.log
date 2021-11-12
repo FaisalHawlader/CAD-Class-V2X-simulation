@@ -1,0 +1,8 @@
+11:52:05 **** Incremental Build of configuration gcc-release for project Ex04 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/project/Ex04/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/project/Ex04/src'
+
+11:52:06 Build Finished. 0 errors, 0 warnings. (took 526ms)
+

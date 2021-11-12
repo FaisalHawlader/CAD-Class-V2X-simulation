@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2021-11-08 15:43:55.119568 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ v1_8_0+0044-4820708f3d
+  options: 
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_204:0" edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 388040068 594713490 9232836#0" >
+        <stop busStop="8528731985" duration="30.00" until="47.0"/> <!-- Belvaux, Roudewee -->
+    </route>
+    <route id="pt_bus_204:1" edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 388040068 594713490 9232836#0" >
+        <stop busStop="8528731985" duration="30.00" until="80.0"/> <!-- Belvaux, Roudewee -->
+    </route>
+    <route id="pt_bus_204:3" edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 388040068 594713490 9232836#0" >
+        <stop busStop="8528731985" duration="30.00" until="87.0"/> <!-- Belvaux, Roudewee -->
+    </route>
+    <route id="pt_bus_202:0" edges="-387830973#1 -387830973#0 84526820#0 84526820#1 476707103#0 476707103#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 388040068 594713490 9232836#0" >
+        <stop busStop="3914930752" duration="30.00" until="114.0"/> <!-- Esch, Raemerich -->
+        <stop busStop="1115018384" duration="30.00" until="145.0"/> <!-- Esch, Raemerich -->
+    </route>
+    <route id="pt_bus_321:0" edges="393878678 96202384#0 96202384#1 388006867#1 388006867#3 388211543 73204671#0 73204671#1 393248455 385079851 388040068 594713490 9232836#0" >
+        <stop busStop="4464473490" duration="30.00" until="87.0"/> <!-- Esch, Tramschapp -->
+    </route>
+    <route id="pt_bus_308:0" edges="381988749#0 381988749#1 24667797 382224391 384688158 25210189#0 25210189#2 25210189#4 25210189#5 25210189#6 25210189#7 25210189#8 25210189#10 152100999 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393248506#0 393248506#1 393248506#2 393248506#3 393248506#4 194714712 809062693 780648238#0 476631724 570972282#0 69353439#6 69353439#7 663774150#0 663774150#1 663774150#2 338332423#0 360827911#1 360827911#2 360827911#3 408845038" >
+        <stop busStop="8528041099" duration="30.00" until="79.0"/> <!-- Esch, Lycée Guillaume Kroll -->
+        <stop busStop="8528041097" duration="30.00" until="110.0"/> <!-- Esch, Lycée Guillaume Kroll -->
+    </route>
+    <route id="pt_bus_1:0" edges="393878678 96202384#0 96202384#1 388006867#1 388006867#3 388211543 73204671#0 73204671#1 393248455 385079851 388040068 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393878673#0 393878673#1 440710544 84526771#0 84526771#1 96202364#0 96202364#1 -223581247#5 -223581247#4 -223581247#3 -223581247#2 -223581247#0" >
+        <stop busStop="4464473490" duration="30.00" until="86.0"/> <!-- Esch, Tramschapp -->
+        <stop busStop="1115018437" duration="30.00" until="209.0"/> <!-- Esch, Raemerich -->
+        <stop busStop="-1115018375" duration="30.00" until="311.0"/> <!-- Belvaux, Brill -->
+    </route>
+    <route id="pt_bus_202:1" edges="69353466 154986375 377213301#0 377213301#1 377213301#2 23019717 393248497#0 170012501#0 170012501#1 170012501#2 170012501#3 26149300#2 26149299 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393878673#0 393878673#1 440710544 84526823#0 84526823#1 84526823#2 387830973#0 387830973#1" >
+        <stop busStop="8528731981" duration="30.00" until="90.0"/> <!-- Esch, Raemerich -->
+        <stop busStop="1115018437" duration="30.00" until="206.0"/> <!-- Esch, Raemerich -->
+    </route>
+    <route id="pt_bus_321:1" edges="69353466 154986375 377213301#0 377213301#1 377213301#2 393878675 388280785 377213302 23888931 23019727#0 23019727#1 23019727#2 -388211543 -388006867#3 -388006867#1 -388006867#0 -96202384#0 -393878678" >
+        <stop busStop="5146079337" duration="30.00" until="99.0"/> <!-- Esch, Tramschapp -->
+    </route>
+    <route id="pt_bus_203:0" edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 152101003 -25210189#10 -25210189#8 -25210189#7 -25210189#6 -25210189#5 -25210189#4 -25210189#2 -25210189#0 382420753 24667797" >
+        <stop busStop="8528731985" duration="30.00" until="46.0"/> <!-- Belvaux, Roudewee -->
+    </route>
+    <route id="pt_bus_2:0" edges="-150258989#9 -150258989#8 -150258989#6 -150258989#5 -150258989#4 -150258989#3 -150258989#2 -150258989#0 96202384#0 96202384#1 388006867#1 388006867#3 388211543 73204671#0 73204671#1 393248455 385079851 388040068 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393878673#0 393878673#1 440710544 84526771#0 84526771#1 96202364#0 96202364#1 -223581247#5 -223581247#4 -223581247#3 -223581247#2 -223581247#0" >
+        <stop busStop="-1631828670" duration="30.00" until="51.0"/> <!-- Esch, Rue des Tramways -->
+        <stop busStop="4464473490" duration="30.00" until="137.0"/> <!-- Esch, Tramschapp -->
+        <stop busStop="1115018437" duration="30.00" until="246.0"/> <!-- Esch, Raemerich -->
+        <stop busStop="-1115018375" duration="30.00" until="348.0"/> <!-- Belvaux, Brill -->
+    </route>
+    <route id="pt_bus_204:2" edges="69353466 154986375 377213301#0 377213301#1 377213301#2 23019717 393248497#0 170012501#0 170012501#1 170012501#2 170012501#3 26149300#2 26149299 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393878673#0 393878673#1 440710544 84526771#0 84526771#1 96202364#0 96202364#1 -223581247#5 -223581247#4 -223581247#3 -223581247#2 -223581247#0 223581247#0 -223581247#0" >
+        <stop busStop="8528731981" duration="30.00" until="88.0"/> <!-- Esch, Raemerich -->
+        <stop busStop="1115018437" duration="30.00" until="173.0"/> <!-- Esch, Raemerich -->
+        <stop busStop="-8528731983" duration="30.00" until="276.0"/> <!-- Belvaux, Brill -->
+        <stop busStop="-1115018375" duration="30.00" until="427.0"/> <!-- Belvaux, Brill -->
+        <stop busStop="-8528731986" duration="30.00" until="496.0"/> <!-- Belvaux, Roudewee -->
+    </route>
+    <route id="pt_bus_203:1" edges="382224391 384688158 25210189#0 25210189#2 25210189#4 25210189#5 25210189#6 25210189#7 25210189#8 25210189#10 152100999 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393878673#0 393878673#1 440710544 84526771#0 84526771#1 96202364#0 96202364#1 -223581247#5 -223581247#4 -223581247#3 -223581247#2 -223581247#0" >
+        <stop busStop="9107699358" duration="30.00" until="31.0"/> <!-- Esch, Cité Verte -->
+    </route>
+    <route id="pt_bus_325:0" edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 388040068 594713490 9232836#0" >
+        <stop busStop="1115018462" duration="30.00" until="75.0"/> <!-- Belvaux, Brill -->
+        <stop busStop="1115018384" duration="30.00" until="179.0"/> <!-- Esch, Raemerich -->
+    </route>
+    <route id="pt_bus_325:1" edges="69353466 154986375 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393878673#0 393878673#1 440710544 84526771#0 84526771#1 96202364#0 96202364#1 -223581247#5 -223581247#4 -223581247#3 -223581247#2 -223581247#0" >
+        <stop busStop="1115018437" duration="30.00" until="88.0"/> <!-- Esch, Raemerich -->
+        <stop busStop="-1115018375" duration="30.00" until="190.0"/> <!-- Belvaux, Brill -->
+    </route>
+    <route id="pt_bus_306:0" edges="-408845038 -360827911#3 -360827911#2 360827911#2 360827911#3 408845038 -408845038 -360827911#3 -360827911#2 -360827911#1 393764297#1 393764297#2 393764297#3 663774150#0 663774150#1 663774150#2 338332423#0 393764297#1 393764297#2 393764297#3 393596509 393596508#0 393596508#1 393596508#2 425555630#2 227337561 426538581#0 426538581#1 426538581#2 366838967 364154088#0 364154088#1 364154088#2 188215405 385080086#0 385080086#1 377213300 23888931 388280781 385079851 388040068 594713490 9232836#0" >
+        <stop busStop="-4408239875" duration="30.00" until="52.0"/> <!-- Belvaux, Um Bedding -->
+        <stop busStop="-2360364949" duration="30.00" until="127.0"/> <!-- Belvaux, Um Bedding -->
+        <stop busStop="4408239878" duration="30.00" until="192.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="1625279566" duration="30.00" until="275.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="6212933652" duration="30.00" until="389.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+        <stop busStop="6212933653" duration="30.00" until="420.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+    </route>
+    <route id="pt_bus_4:0" edges="69353461#0 393764297#1 393764297#2 393764297#3 663774150#0 663774150#1 663774150#2 338332423#0 393764297#1 393764297#2 393764297#3 393596509 393596508#0 393596508#1 393596508#2 425555630#2 227337561 426538581#0 426538581#1 426538581#2 423133516 423133512 28246185 194714719 440710412#0 440710412#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 23019727#0 23019727#1 23019727#2 -388211543 -388006867#3 -388006867#1 -388006867#0 -96202384#0 150258989#0 150258989#2 150258989#3 150258989#4 150258989#5 150258989#6 150258989#8 150258989#9" >
+        <stop busStop="4408239878" duration="30.00" until="71.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="1625279566" duration="30.00" until="172.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="6212933652" duration="30.00" until="285.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+        <stop busStop="6212933653" duration="30.00" until="316.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+        <stop busStop="1115018384" duration="30.00" until="466.0"/> <!-- Esch, Raemerich -->
+        <stop busStop="5146079337" duration="30.00" until="528.0"/> <!-- Esch, Tramschapp -->
+        <stop busStop="1631828668" duration="30.00" until="621.0"/> <!-- Esch, Rue des Tramways -->
+    </route>
+    <route id="pt_bus_4:1" edges="-150258989#9 -150258989#8 -150258989#6 -150258989#5 -150258989#4 -150258989#3 -150258989#2 -150258989#0 96202384#0 96202384#1 388006867#1 388006867#3 388211543 73204671#0 73204671#1 393248455 385079851 388040068 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393248506#0 393248506#1 393248506#2 393248506#3 393248506#4 194714712 809062693 780648238#0 476631724 570972282#0 69353439#6 69353439#7 663774150#0 663774150#1 663774150#2 338332423#0 393764293#1" >
+    </route>
+    <route id="pt_bus_1:1" edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 23019727#0 23019727#1 23019727#2 -388211543 -388006867#3 -388006867#1 -388006867#0 -96202384#0 -393878678" >
+        <stop busStop="1115018462" duration="30.00" until="76.0"/> <!-- Belvaux, Brill -->
+        <stop busStop="1115018384" duration="30.00" until="177.0"/> <!-- Esch, Raemerich -->
+        <stop busStop="5146079337" duration="30.00" until="236.0"/> <!-- Esch, Tramschapp -->
+    </route>
+    <route id="pt_bus_2:1" edges="223581247#0 223581247#2 223581247#3 223581247#4 223581247#5 23019752#0 387488096#0 387488096#1 520948066 393248508 393248511#0 393248511#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 23019727#0 23019727#1 23019727#2 -388211543 -388006867#3 -388006867#1 -388006867#0 -96202384#0 150258989#0 150258989#2 150258989#3 150258989#4 150258989#5 150258989#6 150258989#8 150258989#9" >
+        <stop busStop="1115018462" duration="30.00" until="108.0"/> <!-- Belvaux, Brill -->
+        <stop busStop="1115018384" duration="30.00" until="210.0"/> <!-- Esch, Raemerich -->
+        <stop busStop="5146079337" duration="30.00" until="273.0"/> <!-- Esch, Tramschapp -->
+        <stop busStop="1631828668" duration="30.00" until="368.0"/> <!-- Esch, Rue des Tramways -->
+    </route>
+    <route id="pt_bus_306:1" edges="69353466 154986375 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393248506#0 393248506#1 393248506#2 393248506#3 393248506#4 194714712 809062693 809062692 393878671#0 393878671#1 467392235#1 425555627#0 425555627#1 69353459#0 -227338318#2 -227338318#1 -227338318#0 713057043 393596508#0 393596508#1 393596508#2 -227338318#2 -227338318#1 -227338318#0 393835185 663774150#0 663774150#1 663774150#2 338332423#0 393764297#1 393764297#2 393764297#3 663774150#0 663774150#1 663774150#2 338332423#0 360827911#1 360827911#2 360827911#3 408845038 -408845038 -360827911#3 -360827911#2 360827911#2 360827911#3 408845038" >
+        <stop busStop="-6212933651" duration="30.00" until="204.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+        <stop busStop="-6212933654" duration="30.00" until="374.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+        <stop busStop="4408239877" duration="30.00" until="468.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="4107535818" duration="30.00" until="671.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="-4408239875" duration="30.00" until="756.0"/> <!-- Belvaux, Um Bedding -->
+        <stop busStop="4107543803" duration="30.00" until="799.0"/> <!-- Belvaux, Um Bedding -->
+    </route>
+    <route id="pt_bus_15:0" edges="-408845038 -360827911#3 -360827911#2 360827911#2 360827911#3 408845038 -408845038 -360827911#3 -360827911#2 -360827911#1 393764297#1 393764297#2 393764297#3 393764300#0 393764300#1 393764300#2 393764300#3 425555630#2 227337561 426538581#0 426538581#1 426538581#2 366838967 364154088#0 364154088#1 364154088#2 188215405 385080086#0 385080086#1 377213300 23888931 23019727#0 23019727#1 23019727#2 -388211543 -388006867#3 -388006867#1 -388006867#0 -96202384#0 -393878678" >
+        <stop busStop="-4408239875" duration="30.00" until="51.0"/> <!-- Belvaux, Um Bedding -->
+        <stop busStop="-2360364949" duration="30.00" until="123.0"/> <!-- Belvaux, Um Bedding -->
+    </route>
+    <route id="pt_bus_7:0" edges="382224391 384688158 25210189#0 25210189#2 25210189#4 25210189#5 25210189#6 25210189#7 25210189#8 25210189#10 152100999 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393248506#0 393248506#1 393248506#2 393248506#3 393248506#4 194714712 809062693 809062692 393878671#0 393878671#1 467392235#1 425555627#0 425555627#1 69353459#0 -227338318#2 -227338318#1 -227338318#0 713057043 393596508#0 393596508#1 393596508#2 -227338318#2 -227338318#1 -227338318#0 393835185 663774150#0 663774150#1 663774150#2 338332423#0 393764293#1" >
+        <stop busStop="5670312476" duration="30.00" until="74.0"/> <!-- Esch, Rue Henri Koch -->
+        <stop busStop="1115018437" duration="30.00" until="196.0"/> <!-- Esch, Raemerich -->
+        <stop busStop="-6212933651" duration="30.00" until="401.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+        <stop busStop="-6212933654" duration="30.00" until="543.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+    </route>
+    <route id="pt_bus_332:0" edges="-360827911#3 -360827911#2 -360827911#1 393764297#1 393764297#2 393764297#3 663774150#0 663774150#1 663774150#2 338332423#0 393764297#1 393764297#2 393764297#3 393764300#0 393764300#1 393764300#2 393764300#3 425555630#2 227337561 426538581#0 426538581#1 426538581#2 366838967 364154088#0 364154088#1 364154088#2 188215405 385080086#0 385080086#1 377213300 23888931 388280781 385079851 152101003 -25210189#10 -25210189#8 -25210189#7 -25210189#6 -25210189#5 -25210189#4 -25210189#2 -25210189#0 382420753 24667797 382224391 24701143" >
+        <stop busStop="-4408239875" duration="30.00" until="31.0"/> <!-- Belvaux, Um Bedding -->
+        <stop busStop="-2360364949@8360118" duration="30.00" until="62.0"/> <!-- Belvaux, Um Bedding -->
+        <stop busStop="4408239878" duration="30.00" until="163.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="1625279566" duration="30.00" until="288.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="4248491039" duration="30.00" until="444.0"/> <!-- Esch/Alzette, Cité des Sciences -->
+        <stop busStop="3968040959" duration="30.00" until="475.0"/> <!-- Esch/Alzette, Cité des Sciences -->
+        <stop busStop="-1649300091" duration="30.00" until="662.0"/> <!-- Esch, Rue Henri Koch -->
+    </route>
+    <route id="pt_bus_7:1" edges="69353461#0 393764297#1 393764297#2 393764297#3 663774150#0 663774150#1 663774150#2 338332423#0 393764297#1 393764297#2 393764297#3 393596509 393596508#0 393596508#1 393596508#2 425555630#2 227337561 426538581#0 426538581#1 426538581#2 423133516 423133512 28246185 194714719 440710412#0 440710412#1 375371401 313843749#1 313843749#2 313843749#3 366838964 388280785 377213302 23888931 388280781 385079851 152101003 -25210189#10 -25210189#8 -25210189#7 -25210189#6 -25210189#5 -25210189#4 -25210189#2 -25210189#0 382420753 24667797" >
+        <stop busStop="4408239878" duration="30.00" until="71.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="1625279566" duration="30.00" until="198.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="6212933652" duration="30.00" until="303.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+        <stop busStop="6212933653" duration="30.00" until="334.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+        <stop busStop="1115018384" duration="30.00" until="538.0"/> <!-- Esch, Raemerich -->
+        <stop busStop="-1649300091" duration="30.00" until="658.0"/> <!-- Esch, Rue Henri Koch -->
+    </route>
+    <route id="pt_bus_309:0" edges="-408845038 -360827911#3 -360827911#2 360827911#2 360827911#3 408845038 -408845038 -360827911#3 -360827911#2 -360827911#1 393764297#1 393764297#2 393764297#3 663774150#0 663774150#1 663774150#2 338332423#0 393764297#1 393764297#2 393764297#3 393596509 393596508#0 393596508#1 393596508#2 -227338318#2 -227338318#1 -227338318#0 713057043 393596508#0 393596508#1 393596508#2 425555630#2 227337561 426538581#0 426538581#1 426538581#2 366838967 364154088#0 364154088#1 364154088#2 188215405 385080086#0 385080086#1 377213300 23888931 388280781 385079851 388040068 594713490 9232836#0" >
+        <stop busStop="-4408239875" duration="30.00" until="52.0"/> <!-- Belvaux, Um Bedding -->
+        <stop busStop="-2360364949" duration="30.00" until="126.0"/> <!-- Belvaux, Um Bedding -->
+        <stop busStop="4408239878" duration="30.00" until="262.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="1625279566" duration="30.00" until="385.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="6212933652" duration="30.00" until="446.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+        <stop busStop="6212933653" duration="30.00" until="477.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+    </route>
+    <route id="pt_bus_332:1" edges="-24701143 384688158 25210189#0 25210189#2 25210189#4 25210189#5 25210189#6 25210189#7 25210189#8 25210189#10 152100999 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393248506#0 393248506#1 393248506#2 393248506#3 393248506#4 194714712 809062693 809062692 393878671#0 393878671#1 467392235#1 425555627#0 425555627#1 69353459#0 69353439#1 69353439#2 69353439#6 69353439#7 663774150#0 663774150#1 663774150#2 338332423#0 393764297#1 393764297#2 393764297#3 663774150#0 663774150#1 663774150#2 338332423#0 360827911#1 360827911#2 360827911#3 408845038 -408845038 -360827911#3 -360827911#2 360827911#2 360827911#3" >
+        <stop busStop="5670312476" duration="30.00" until="119.0"/> <!-- Esch, Rue Henri Koch -->
+        <stop busStop="4248491038" duration="30.00" until="310.0"/> <!-- Esch/Alzette, Cité des Sciences -->
+        <stop busStop="3968109962" duration="30.00" until="341.0"/> <!-- Esch/Alzette, Cité des Sciences -->
+        <stop busStop="4408239877" duration="30.00" until="475.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="4107535818" duration="30.00" until="617.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="-4408239875" duration="30.00" until="702.0"/> <!-- Belvaux, Um Bedding -->
+        <stop busStop="4107543803" duration="30.00" until="744.0"/> <!-- Belvaux, Um Bedding -->
+    </route>
+    <route id="pt_bus_15:1" edges="393878678 96202384#0 96202384#1 388006867#1 388006867#3 388211543 73204671#0 73204671#1 393248455 385079851 388040068 594713490 443202032 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393248506#0 393248506#1 393248506#2 393248506#3 393248506#4 194714712 809062693 809062692 393878671#0 393878671#1 467392235#1 425555627#0 425555627#1 69353459#0 -227338318#2 -227338318#1 -227338318#0 713057043 393596508#0 393596508#1 393596508#2 -227338318#2 -227338318#1 -227338318#0 393835185 663774150#0 663774150#1 663774150#2 338332423#0 360827911#1 360827911#2 360827911#3 408845038" >
+        <stop busStop="4464473490" duration="30.00" until="86.0"/> <!-- Esch, Tramschapp -->
+        <stop busStop="1115018437" duration="30.00" until="173.0"/> <!-- Esch, Raemerich -->
+        <stop busStop="-6212933651" duration="30.00" until="318.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+        <stop busStop="-6212933654" duration="30.00" until="437.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+    </route>
+    <route id="pt_bus_309:1" edges="69353466 154986375 377213301#0 377213301#1 377213301#2 23019717 393248497#0 393248497#1 393248497#2 251421193#0 393248506#0 393248506#1 393248506#2 393248506#3 393248506#4 194714712 809062693 809062692 393878671#0 393878671#1 467392235#1 425555627#0 425555627#1 69353459#0 -227338318#2 -227338318#1 -227338318#0 713057043 393596508#0 393596508#1 393596508#2 -227338318#2 -227338318#1 -227338318#0 393835185 663774150#0 663774150#1 663774150#2 338332423#0 393764297#1 393764297#2 393764297#3 663774150#0 663774150#1 663774150#2 338332423#0 360827911#1 360827911#2 360827911#3 408845038 -408845038 -360827911#3 -360827911#2 360827911#2 360827911#3 408845038" >
+        <stop busStop="-6212933651" duration="30.00" until="211.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+        <stop busStop="-6212933654" duration="30.00" until="389.0"/> <!-- Esch/Alzette, Porte des Sciences -->
+        <stop busStop="4408239877" duration="30.00" until="506.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="4107535818" duration="30.00" until="616.0"/> <!-- Esch/Alzette, Porte de France -->
+        <stop busStop="-4408239875" duration="30.00" until="697.0"/> <!-- Belvaux, Um Bedding -->
+        <stop busStop="4107543803" duration="30.00" until="739.0"/> <!-- Belvaux, Um Bedding -->
+    </route>
+    <flow id="pt_bus_204:0" type="pt_bus" route="pt_bus_204:0" begin="15.0" end="3615.0" period="600" line="204:0" >
+        <param key="name" value="RGTR 204: Differdange =&gt; LTC"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_204:1" type="pt_bus" route="pt_bus_204:1" begin="21.0" end="3621.0" period="600" line="204:1" >
+        <param key="name" value="RGTR 204: Differdange =&gt; Merl"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_204:3" type="pt_bus" route="pt_bus_204:3" begin="52.0" end="3652.0" period="600" line="204:3" >
+        <param key="name" value="RGTR 204: Differdange =&gt; Geesseknäppchen"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_202:0" type="pt_bus" route="pt_bus_202:0" begin="132.0" end="3732.0" period="600" line="202:0" >
+        <param key="name" value="RGTR 202: Niederkorn =&gt; Limpertsberg"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_321:0" type="pt_bus" route="pt_bus_321:0" begin="204.0" end="3804.0" period="600" line="321:0" >
+        <param key="name" value="RGTR 321: Villerupt (F) =&gt; Luxembourg"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_308:0" type="pt_bus" route="pt_bus_308:0" begin="3.0" end="3603.0" period="600" line="308:0" >
+        <param key="name" value="RGTR 308: Bettembourg =&gt; Esch/Lycées (cs)"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_1:0" type="pt_bus" route="pt_bus_1:0" begin="55.0" end="3655.0" period="600" line="1:0" >
+        <param key="name" value="TICE-01: Esch =&gt; Lamadelaine"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_202:1" type="pt_bus" route="pt_bus_202:1" begin="136.0" end="3736.0" period="600" line="202:1" >
+        <param key="name" value="RGTR 202: Limpertsberg =&gt; Niederkorn"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_321:1" type="pt_bus" route="pt_bus_321:1" begin="253.0" end="3853.0" period="600" line="321:1" >
+        <param key="name" value="RGTR 321: Luxembourg =&gt; Villerupt (F)"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_203:0" type="pt_bus" route="pt_bus_203:0" begin="165.0" end="3765.0" period="600" line="203:0" >
+        <param key="name" value="RGTR 203: Obercorn =&gt; Limpertsberg"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_2:0" type="pt_bus" route="pt_bus_2:0" begin="58.0" end="3658.0" period="600" line="2:0" >
+        <param key="name" value="TICE-02: Esch =&gt; Differdange"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_bus_204:2" type="pt_bus" route="pt_bus_204:2" begin="17.0" end="3617.0" period="600" line="204:2" >
+        <param key="name" value="RGTR 204: Merl =&gt; Differdange"/>
+        <param key="completeness" value="0.16"/>
+    </flow>
+    <flow id="pt_bus_203:1" type="pt_bus" route="pt_bus_203:1" begin="201.0" end="3801.0" period="600" line="203:1" >
+        <param key="name" value="RGTR 203: Limpertsberg =&gt; Obercorn"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_325:0" type="pt_bus" route="pt_bus_325:0" begin="303.0" end="3903.0" period="600" line="325:0" >
+        <param key="name" value="RGTR 325: Hussigny (F) =&gt; Luxembourg"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_325:1" type="pt_bus" route="pt_bus_325:1" begin="326.0" end="3926.0" period="600" line="325:1" >
+        <param key="name" value="RGTR 325: Luxembourg =&gt; Hussigny (F)"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_306:0" type="pt_bus" route="pt_bus_306:0" begin="119.0" end="3719.0" period="600" line="306:0" >
+        <param key="name" value="RGTR 306: Esch/Belval =&gt; Trier"/>
+        <param key="completeness" value="0.25"/>
+    </flow>
+    <flow id="pt_bus_4:0" type="pt_bus" route="pt_bus_4:0" begin="93.0" end="3693.0" period="600" line="4:0" >
+        <param key="name" value="TICE-04: Esch =&gt; Dudelange"/>
+        <param key="completeness" value="0.17"/>
+    </flow>
+    <flow id="pt_bus_4:1" type="pt_bus" route="pt_bus_4:1" begin="508.0" end="4108.0" period="600" line="4:1" >
+        <param key="name" value="TICE-04: Dudelange =&gt; Esch"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_1:1" type="pt_bus" route="pt_bus_1:1" begin="483.0" end="4083.0" period="600" line="1:1" >
+        <param key="name" value="TICE-01: Lamadelaine =&gt; Esch"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_2:1" type="pt_bus" route="pt_bus_2:1" begin="489.0" end="4089.0" period="600" line="2:1" >
+        <param key="name" value="TICE-02: Differdange =&gt; Esch"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_bus_306:1" type="pt_bus" route="pt_bus_306:1" begin="131.0" end="3731.0" period="600" line="306:1" >
+        <param key="name" value="RGTR 306: Trier =&gt; Esch/Belval"/>
+        <param key="completeness" value="0.25"/>
+    </flow>
+    <flow id="pt_bus_15:0" type="pt_bus" route="pt_bus_15:0" begin="535.0" end="4135.0" period="600" line="15:0" >
+        <param key="name" value="TICE-15: Clemency =&gt; Esch"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_7:0" type="pt_bus" route="pt_bus_7:0" begin="389.0" end="3989.0" period="600" line="7:0" >
+        <param key="name" value="TICE-07: Esch =&gt; Esch-Belval"/>
+        <param key="completeness" value="0.18"/>
+    </flow>
+    <flow id="pt_bus_332:0" type="pt_bus" route="pt_bus_332:0" begin="353.0" end="3953.0" period="600" line="332:0" >
+        <param key="name" value="RGTR 332: Belval =&gt; Steinfort"/>
+        <param key="completeness" value="0.21"/>
+    </flow>
+    <flow id="pt_bus_7:1" type="pt_bus" route="pt_bus_7:1" begin="406.0" end="4006.0" period="600" line="7:1" >
+        <param key="name" value="TICE-07: Esch-Belval =&gt; Esch"/>
+        <param key="completeness" value="0.23"/>
+    </flow>
+    <flow id="pt_bus_309:0" type="pt_bus" route="pt_bus_309:0" begin="418.0" end="4018.0" period="600" line="309:0" >
+        <param key="name" value="RGTR 309: Esch/Belval =&gt; Grevenmacher"/>
+        <param key="completeness" value="0.21"/>
+    </flow>
+    <flow id="pt_bus_332:1" type="pt_bus" route="pt_bus_332:1" begin="383.0" end="3983.0" period="600" line="332:1" >
+        <param key="name" value="RGTR 332: Steinfort =&gt; Belval"/>
+        <param key="completeness" value="0.19"/>
+    </flow>
+    <flow id="pt_bus_15:1" type="pt_bus" route="pt_bus_15:1" begin="574.0" end="4174.0" period="600" line="15:1" >
+        <param key="name" value="TICE-15: Esch =&gt; Clemency"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_309:1" type="pt_bus" route="pt_bus_309:1" begin="441.0" end="4041.0" period="600" line="309:1" >
+        <param key="name" value="RGTR 309: Grevenmacher =&gt; Esch/Belval"/>
+        <param key="completeness" value="0.21"/>
+    </flow>
+</routes>

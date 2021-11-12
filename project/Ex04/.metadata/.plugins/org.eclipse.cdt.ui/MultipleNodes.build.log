@@ -1,0 +1,7 @@
+10:08:16 **** Build of configuration debug for project MultipleNodes ****
+make MODE=debug all 
+test04.cc
+Creating executable: out/clang-debug//MultipleNodes_dbg.exe
+
+10:08:18 Build Finished. 0 errors, 0 warnings. (took 1s.959ms)
+

@@ -1,0 +1,8 @@
+07:47:10 **** Incremental Build of configuration gcc-release for project Ex04 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/Downloads/cad-class-v2x-simulation-main/cad-class-v2x-simulation-main/project/Ex04/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/Downloads/cad-class-v2x-simulation-main/cad-class-v2x-simulation-main/project/Ex04/src'
+
+07:47:11 Build Finished. 0 errors, 0 warnings. (took 498ms)
+

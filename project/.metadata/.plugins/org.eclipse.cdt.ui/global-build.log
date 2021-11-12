@@ -1,0 +1,21 @@
+07:43:40 **** Build of configuration release for project Ex01 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+07:45:05 **** Build of configuration release for project Ex02 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+07:45:35 **** Build of configuration gcc-release for project Ex04 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/Downloads/cad-class-v2x-simulation-main/cad-class-v2x-simulation-main/project/Ex04/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/Downloads/cad-class-v2x-simulation-main/cad-class-v2x-simulation-main/project/Ex04/src'
+07:46:20 **** Incremental Build of configuration gcc-release for project Ex04 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/Downloads/cad-class-v2x-simulation-main/cad-class-v2x-simulation-main/project/Ex04/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/Downloads/cad-class-v2x-simulation-main/cad-class-v2x-simulation-main/project/Ex04/src'
+07:47:10 **** Incremental Build of configuration gcc-release for project Ex04 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/Downloads/cad-class-v2x-simulation-main/cad-class-v2x-simulation-main/project/Ex04/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/Downloads/cad-class-v2x-simulation-main/cad-class-v2x-simulation-main/project/Ex04/src'

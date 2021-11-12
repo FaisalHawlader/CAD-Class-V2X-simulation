@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of an OMNeT++ simulation example for Connected and Autonomous Vehicles class (Winter semester 2021-2022) -->
+
+
+<launch>
+    <copy file="belval.net.xml" />
+    <copy file="belval.rou.xml" />
+    <copy file="belval.poly.xml" />
+    <copy file="belval.sumo.cfg" type="config" />
+</launch>
+

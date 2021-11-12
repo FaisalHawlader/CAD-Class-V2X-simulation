@@ -1,0 +1,212 @@
+                                                                
+version 2
+run Default-0-20211009-12:22:00-9812
+attr configname Default
+attr datetime 20211009-12:22:00
+attr experiment Default
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network RSUExampleScenario
+attr processid 9812
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.playgroundSizeX 2500m
+param *.playgroundSizeY 2500m
+param *.playgroundSizeZ 50m
+param *.annotations.draw true
+param *.manager.updateInterval 1s
+param *.manager.host "\"localhost\""
+param *.manager.port 9999
+param *.manager.autoShutdown true
+param *.manager.launchConfig "xmldoc(\"erlangen.launchd.xml\")"
+param *.rsu[0].mobility.x 1200
+param *.rsu[0].mobility.y 1000
+param *.rsu[0].mobility.z 3
+param *.rsu[*].applType "\"TraCIDemoRSU11p\""
+param *.rsu[*].appl.headerLength "80 bit"
+param *.rsu[*].appl.sendBeacons false
+param *.rsu[*].appl.dataOnSch false
+param *.rsu[*].appl.beaconInterval 1s
+param *.rsu[*].appl.beaconUserPriority 7
+param *.rsu[*].appl.dataUserPriority 5
+param *.rsu[*].nic.phy80211p.antennaOffsetZ "0 m"
+param *.connectionManager.sendDirect true
+param *.connectionManager.maxInterfDist 6000m
+param *.connectionManager.drawMaxIntfDist false
+param *.**.nic.mac1609_4.useServiceChannel false
+param *.**.nic.mac1609_4.txPower 20mW
+param *.**.nic.mac1609_4.bitrate 6Mbps
+param *.**.nic.phy80211p.minPowerLevel -110dBm
+param *.**.nic.phy80211p.useNoiseFloor true
+param *.**.nic.phy80211p.noiseFloor -98dBm
+param *.**.nic.phy80211p.decider "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.analogueModels "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.usePropagationDelay true
+param *.**.nic.phy80211p.antenna "xmldoc(\"antenna.xml\", \"/root/Antenna[@id='monopole']\")"
+param *.node[*].nic.phy80211p.antennaOffsetY "0 m"
+param *.node[*].nic.phy80211p.antennaOffsetZ "1.895 m"
+param *.node[*].applType "\"TraCIDemo11p\""
+param *.node[*].appl.headerLength "80 bit"
+param *.node[*].appl.sendBeacons false
+param *.node[*].appl.dataOnSch false
+param *.node[*].appl.beaconInterval 1s
+param *.node[*].veinsmobility.x 0
+param *.node[*].veinsmobility.y 0
+param *.node[*].veinsmobility.z 0
+param *.node[*].veinsmobility.setHostSpeed false
+param *.node[*0].veinsmobility.accidentCount 1
+param *.node[*0].veinsmobility.accidentStart 73s
+param *.node[*0].veinsmobility.accidentDuration 50s
+
+vector 0 RSUExampleScenario.node[0].veinsmobility posx ETV
+vector 1 RSUExampleScenario.node[0].veinsmobility posy ETV
+vector 2 RSUExampleScenario.node[0].veinsmobility speed ETV
+vector 3 RSUExampleScenario.node[1].veinsmobility posx ETV
+vector 4 RSUExampleScenario.node[1].veinsmobility posy ETV
+vector 5 RSUExampleScenario.node[0].veinsmobility acceleration ETV
+vector 6 RSUExampleScenario.node[0].veinsmobility co2emission ETV
+vector 7 RSUExampleScenario.node[1].veinsmobility speed ETV
+vector 8 RSUExampleScenario.node[1].veinsmobility acceleration ETV
+vector 9 RSUExampleScenario.node[1].veinsmobility co2emission ETV
+vector 10 RSUExampleScenario.node[2].veinsmobility posx ETV
+vector 11 RSUExampleScenario.node[2].veinsmobility posy ETV
+vector 12 RSUExampleScenario.node[2].veinsmobility speed ETV
+vector 13 RSUExampleScenario.node[2].veinsmobility acceleration ETV
+vector 14 RSUExampleScenario.node[2].veinsmobility co2emission ETV
+vector 15 RSUExampleScenario.node[3].veinsmobility posx ETV
+vector 16 RSUExampleScenario.node[3].veinsmobility posy ETV
+vector 17 RSUExampleScenario.node[3].veinsmobility speed ETV
+vector 18 RSUExampleScenario.node[4].veinsmobility posx ETV
+vector 19 RSUExampleScenario.node[4].veinsmobility posy ETV
+vector 20 RSUExampleScenario.node[3].veinsmobility acceleration ETV
+vector 21 RSUExampleScenario.node[3].veinsmobility co2emission ETV
+vector 22 RSUExampleScenario.node[4].veinsmobility speed ETV
+vector 23 RSUExampleScenario.node[4].veinsmobility acceleration ETV
+vector 24 RSUExampleScenario.node[4].veinsmobility co2emission ETV
+vector 25 RSUExampleScenario.node[5].veinsmobility posx ETV
+vector 26 RSUExampleScenario.node[5].veinsmobility posy ETV
+vector 27 RSUExampleScenario.node[5].veinsmobility speed ETV
+vector 28 RSUExampleScenario.node[5].veinsmobility acceleration ETV
+vector 29 RSUExampleScenario.node[5].veinsmobility co2emission ETV
+vector 30 RSUExampleScenario.node[6].veinsmobility posx ETV
+vector 31 RSUExampleScenario.node[6].veinsmobility posy ETV
+vector 32 RSUExampleScenario.node[6].veinsmobility speed ETV
+vector 33 RSUExampleScenario.node[7].veinsmobility posx ETV
+vector 34 RSUExampleScenario.node[7].veinsmobility posy ETV
+vector 35 RSUExampleScenario.node[6].veinsmobility acceleration ETV
+vector 36 RSUExampleScenario.node[6].veinsmobility co2emission ETV
+vector 37 RSUExampleScenario.node[7].veinsmobility speed ETV
+vector 38 RSUExampleScenario.node[7].veinsmobility acceleration ETV
+vector 39 RSUExampleScenario.node[7].veinsmobility co2emission ETV
+vector 40 RSUExampleScenario.node[8].veinsmobility posx ETV
+vector 41 RSUExampleScenario.node[8].veinsmobility posy ETV
+vector 42 RSUExampleScenario.node[8].veinsmobility speed ETV
+vector 43 RSUExampleScenario.node[8].veinsmobility acceleration ETV
+vector 44 RSUExampleScenario.node[8].veinsmobility co2emission ETV
+vector 45 RSUExampleScenario.node[9].veinsmobility posx ETV
+vector 46 RSUExampleScenario.node[9].veinsmobility posy ETV
+vector 47 RSUExampleScenario.node[9].veinsmobility speed ETV
+vector 48 RSUExampleScenario.node[10].veinsmobility posx ETV
+vector 49 RSUExampleScenario.node[10].veinsmobility posy ETV
+vector 50 RSUExampleScenario.node[9].veinsmobility acceleration ETV
+vector 51 RSUExampleScenario.node[9].veinsmobility co2emission ETV
+vector 52 RSUExampleScenario.node[10].veinsmobility speed ETV
+vector 53 RSUExampleScenario.node[10].veinsmobility acceleration ETV
+vector 54 RSUExampleScenario.node[10].veinsmobility co2emission ETV
+6	5956 1684 4 71 3 70 68 1.6567035034569 8.2213328270581 160.29047837863 475.64819761565
+5	7640 1852 4 71 3 70 68 -0.11040784029756 2.0432157806028 9.9731452949092 19.268428215599
+2	9492 1706 3 71 2 70 69 3.9596735773885 13.997562758664 930.7423365959 12763.624498206
+1	11198 1724 2 71 1 70 70 777.49133500603 1437.0817564053 74191.320271386 81741950.29566
+0	12922 1726 2 71 1 70 70 505.49271272429 800.31576473313 45483.350547668 30167131.978847
+vector 55 RSUExampleScenario.node[11].veinsmobility posx ETV
+vector 56 RSUExampleScenario.node[11].veinsmobility posy ETV
+vector 57 RSUExampleScenario.node[11].veinsmobility speed ETV
+vector 58 RSUExampleScenario.node[11].veinsmobility acceleration ETV
+vector 59 RSUExampleScenario.node[11].veinsmobility co2emission ETV
+14	14974 1759 14 81 13 80 68 1.6766228961044 8.222617335266 160.04886688074 472.27010617181
+13	16733 1914 14 81 13 80 68 -0.10488814210053 2.0883199123456 9.7534346003074 18.411143709339
+12	18647 1787 13 81 12 80 69 4.1962616413308 13.996482902612 931.47945155752 12774.727636676
+11	20434 1813 12 81 11 80 70 777.64747282716 1437.0373242411 74160.991786024 81668951.533355
+10	22247 1810 12 81 11 80 70 505.50718234851 800.36118649454 45498.516802214 30185982.763338
+vector 60 RSUExampleScenario.node[12].veinsmobility posx ETV
+vector 61 RSUExampleScenario.node[12].veinsmobility posy ETV
+vector 62 RSUExampleScenario.node[12].veinsmobility speed ETV
+vector 63 RSUExampleScenario.node[13].veinsmobility posx ETV
+vector 64 RSUExampleScenario.node[13].veinsmobility posy ETV
+vector 65 RSUExampleScenario.node[12].veinsmobility acceleration ETV
+vector 66 RSUExampleScenario.node[12].veinsmobility co2emission ETV
+vector 67 RSUExampleScenario.node[13].veinsmobility speed ETV
+vector 68 RSUExampleScenario.node[13].veinsmobility acceleration ETV
+vector 69 RSUExampleScenario.node[13].veinsmobility co2emission ETV
+21	24709 1761 24 91 23 90 68 1.6672124734313 8.8336273034869 160.29903975971 484.45175857629
+20	26470 1927 24 91 23 90 68 -0.10756663990905 2.0895425555832 9.858707135324 19.59961254354
+17	28397 1788 23 91 22 90 69 4.0858498359312 13.999213176682 931.45475906997 12778.132228644
+16	30185 1815 22 91 21 90 70 777.63534009835 1437.0293151182 74163.610348569 81676278.609295
+15	32000 1811 22 91 21 90 70 505.50979057164 800.35803063001 45497.378849513 30184719.143476
+vector 70 RSUExampleScenario.node[14].veinsmobility posx ETV
+vector 71 RSUExampleScenario.node[14].veinsmobility posy ETV
+vector 72 RSUExampleScenario.node[14].veinsmobility speed ETV
+vector 73 RSUExampleScenario.node[14].veinsmobility acceleration ETV
+vector 74 RSUExampleScenario.node[14].veinsmobility co2emission ETV
+29	34137 1763 34 101 33 100 68 1.61030185702 8.0027756821003 159.93820288004 458.65618981594
+28	35900 1940 34 101 33 100 68 -0.12428790424252 1.984640469416 9.9057485692019 17.214496229245
+27	37840 1787 33 101 32 100 69 4.0716254137804 13.996730740373 929.1914977149 12724.692032864
+26	39627 1817 32 101 31 100 70 777.25950613862 1437.0705652334 74232.304089649 81837707.155105
+25	41444 1817 32 101 31 100 70 505.49635720245 800.10267866292 45461.714025088 30139658.051044
+vector 75 RSUExampleScenario.node[15].veinsmobility posx ETV
+vector 76 RSUExampleScenario.node[15].veinsmobility posy ETV
+vector 77 RSUExampleScenario.node[15].veinsmobility speed ETV
+vector 78 RSUExampleScenario.node[16].veinsmobility posx ETV
+vector 79 RSUExampleScenario.node[16].veinsmobility posy ETV
+vector 80 RSUExampleScenario.node[15].veinsmobility acceleration ETV
+vector 81 RSUExampleScenario.node[15].veinsmobility co2emission ETV
+vector 82 RSUExampleScenario.node[16].veinsmobility speed ETV
+vector 83 RSUExampleScenario.node[16].veinsmobility acceleration ETV
+vector 84 RSUExampleScenario.node[16].veinsmobility co2emission ETV
+vector 85 RSUExampleScenario.node[17].veinsmobility posx ETV
+vector 86 RSUExampleScenario.node[17].veinsmobility posy ETV
+36	44037 1797 44 112 43 111 69 0.973 8.8089257181702 160.27004436264 476.95069469373
+35	45834 1976 44 112 43 111 69 -0.84713859992514 2.0516499146935 8.8677054495074 19.898851490095
+32	47810 1840 43 112 42 111 70 4.1818453944514 13.999529136929 937.76403432643 12758.19760794
+31	49650 1863 42 112 41 111 71 777.72821145895 1437.0928865233 75071.282945256 82491791.925332
+30	51513 1861 42 112 41 111 71 505.48908812875 800.38591906152 46267.139835385 30774900.999992
+vector 87 RSUExampleScenario.node[17].veinsmobility speed ETV
+vector 88 RSUExampleScenario.node[17].veinsmobility acceleration ETV
+vector 89 RSUExampleScenario.node[17].veinsmobility co2emission ETV
+44	53576 1808 54 121 53 120 68 1.727546185791 7.9002003763546 160.48150886611 481.83808604238
+43	55384 1972 54 121 53 120 68 -0.089672587127424 2.2939129207539 9.931750874598 19.886882233904
+42	57356 1822 53 121 52 120 69 4.0241076678788 13.996994716085 932.00518450642 12790.910185692
+41	59178 1854 52 121 51 120 70 777.73035439468 1437.0661205646 74147.302680862 81636744.53934
+40	61032 1853 52 121 51 120 70 505.49780463785 800.38584127076 45505.763495833 30195136.534722
+vector 90 RSUExampleScenario.node[18].veinsmobility posx ETV
+vector 91 RSUExampleScenario.node[18].veinsmobility posy ETV
+vector 92 RSUExampleScenario.node[18].veinsmobility speed ETV
+vector 93 RSUExampleScenario.node[19].veinsmobility posx ETV
+vector 94 RSUExampleScenario.node[19].veinsmobility posy ETV
+vector 95 RSUExampleScenario.node[18].veinsmobility acceleration ETV
+vector 96 RSUExampleScenario.node[18].veinsmobility co2emission ETV
+vector 97 RSUExampleScenario.node[19].veinsmobility speed ETV
+vector 98 RSUExampleScenario.node[19].veinsmobility acceleration ETV
+vector 99 RSUExampleScenario.node[19].veinsmobility co2emission ETV
+51	63537 1821 64 131 63 130 68 1.6610106093208 7.9908986559239 159.96491954945 468.28486627754
+50	65358 1981 64 131 63 130 68 -0.10933196884347 2.0363476687344 9.7923448845998 18.445478200571
+47	67339 1852 63 131 62 130 69 4.0952720554083 13.992373962142 931.56363621943 12779.111417807
+46	69191 1877 62 131 61 130 70 777.59952679735 1437.0373674068 74169.359741235 81689287.811862
+45	71068 1874 62 131 61 130 70 505.50716829133 800.34775113443 45494.256422436 30180708.03044
+vector 100 RSUExampleScenario.node[20].veinsmobility posx ETV
+vector 101 RSUExampleScenario.node[20].veinsmobility posy ETV
+vector 102 RSUExampleScenario.node[20].veinsmobility speed ETV
+vector 103 RSUExampleScenario.node[20].veinsmobility acceleration ETV
+vector 104 RSUExampleScenario.node[20].veinsmobility co2emission ETV
+vector 105 RSUExampleScenario.node[21].veinsmobility posx ETV
+vector 106 RSUExampleScenario.node[21].veinsmobility posy ETV
+59	73399 1862 74 143 73 141 69 0.973 8.5027232206674 160.77484972302 479.35451039543
+58	75261 2045 74 143 73 141 69 -0.89101046442086 2.0876673079212 9.0000714623031 20.215566361559
+57	77306 1897 73 143 72 141 70 4.1199785941499 13.998974553705 938.04234930694 12767.802782871
+56	79203 1922 72 143 71 141 71 777.72217491331 1437.0407134836 75069.545420609 82487150.5401
+55	81125 1921 72 143 71 141 71 505.50607861959 800.38544280545 46267.668619939 30775456.997107

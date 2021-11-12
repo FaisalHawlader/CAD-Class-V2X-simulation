@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ChartEditForm">
+		<item key="default-page" value="Lines"/>
+	</section>
+	<section name="org.omnetpp.scave.editors.ui.EditDialog">
+		<item key="DIALOG_X_ORIGIN" value="607"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
+		<item key="DIALOG_WIDTH" value="722"/>
+		<item key="DIALOG_HEIGHT" value="857"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-30|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.omnetpp.scave.editors.ui.CreateChartTemplateDialog">
+		<item key="DIALOG_X_ORIGIN" value="580"/>
+		<item key="DIALOG_Y_ORIGIN" value="203"/>
+		<item key="DIALOG_WIDTH" value="777"/>
+		<item key="DIALOG_HEIGHT" value="480"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-30|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.omnetpp.scave.editors.ui.DatasetSelectionDialog">
+		<item key="DIALOG_X_ORIGIN" value="706"/>
+		<item key="DIALOG_Y_ORIGIN" value="149"/>
+		<item key="DIALOG_WIDTH" value="524"/>
+		<item key="DIALOG_HEIGHT" value="561"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-30|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.omnetpp.scave.wizard.ScaveExportWizard">
+		<item key="CSV-S:quoteChar" value="doublequote"/>
+		<item key="CSV-S:vectorLayout" value="vertical"/>
+		<item key="CSV-S:columnNames" value="true"/>
+		<item key="CSV-S:quoteEscaping" value="doubling"/>
+		<item key="CSV-S:allowMixed" value="true"/>
+		<item key="CSV-S:precision" value="14"/>
+		<item key="CSV-S:scalarsGroupBy" value="name"/>
+		<item key="CSV-S:separator" value="comma"/>
+		<item key="CSV-R:quoteChar" value="doublequote"/>
+		<item key="CSV-R:columnNames" value="true"/>
+		<item key="CSV-R:omitBlankColumns" value="true"/>
+		<item key="CSV-R:quoteEscaping" value="doubling"/>
+		<item key="CSV-R:precision" value="14"/>
+		<item key="CSV-R:separator" value="comma"/>
+	</section>
+</section>

@@ -1,0 +1,7 @@
+#This file is part of an OMNeT++ simulation example for Connected and Autonomous Vehicles class (Winter semester 2021-2022)
+
+#To be able to run the simulation, we need to create an omnetpp.ini file.
+# omnetpp.ini tells the simulation program which network to simulate
+
+[General]
+network =Ex1 # we want to simulate Ex1 network

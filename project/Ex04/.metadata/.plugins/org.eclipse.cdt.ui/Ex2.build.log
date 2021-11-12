@@ -1,0 +1,6 @@
+11:31:02 **** Build of configuration release for project Ex2 ****
+make MODE=release all 
+Creating executable: out/clang-release//Ex2.exe
+
+11:31:03 Build Finished. 0 errors, 0 warnings. (took 843ms)
+

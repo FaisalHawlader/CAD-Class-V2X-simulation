@@ -1,0 +1,16 @@
+simple Car
+{
+    gates:
+        input in;
+        output out;
+}
+
+network Ex1
+{
+    submodules:
+        car1: Car;
+        car2: Car;
+    connections:
+        car1.out --> {  delay = 100ms; } --> car2.in;
+        car1.in <-- {  delay = 100ms; } <-- car2.out;
+}

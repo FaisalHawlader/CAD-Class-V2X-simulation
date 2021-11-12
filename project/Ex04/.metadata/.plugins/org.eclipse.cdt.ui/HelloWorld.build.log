@@ -1,0 +1,7 @@
+10:08:13 **** Build of configuration debug for project HelloWorld ****
+make MODE=debug all 
+hello.cc
+Creating executable: out/clang-debug//HelloWorld_dbg.exe
+
+10:08:16 Build Finished. 0 errors, 0 warnings. (took 3s.29ms)
+

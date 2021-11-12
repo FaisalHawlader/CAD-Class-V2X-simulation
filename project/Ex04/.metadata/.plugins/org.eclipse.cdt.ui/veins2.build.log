@@ -1,0 +1,8 @@
+10:08:19 **** Build of configuration gcc-release for project veins2 ****
+make MODE=release -j16 all 
+make[1]: Entering directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/c/Users/faisa/OneDrive/Desktop/cad/veins2/src'
+
+10:08:20 Build Finished. 0 errors, 0 warnings. (took 632ms)
+

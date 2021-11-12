@@ -1,0 +1,27 @@
+// This file is part of an OMNeT++ simulation example for Connected and Autonomous Vehicles class (Winter semester 2021-2022)
+
+simple Car
+{
+    parameters:
+        @display("i=block/routing");
+    gates:
+        inout gate[];  // declare two way connections
+}
+
+// using two way connections to further simplify the network definition
+network Ex2
+{
+    types:
+        channel Channel extends ned.DelayChannel {
+            delay = 100ms;
+        }
+    submodules:
+        car[6]: Car;
+    connections:
+        // add your code here to make the connection between vehicles
+        car[0].gate++ <--> Channel <--> car[1].gate++;
+        car[1].gate++ <--> Channel <--> car[2].gate++;
+        car[1].gate++ <--> Channel <--> car[4].gate++;
+        car[3].gate++ <--> Channel <--> car[4].gate++;
+        car[4].gate++ <--> Channel <--> car[5].gate++;
+}
